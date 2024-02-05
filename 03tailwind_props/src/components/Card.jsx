@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Card(props) {
+function Card(props) {   {/** default values,,, can also be named as props in parameter  ----> Card({name,btntext="clickme"})   instead of props, we can also destructure the props object accordi g to the values we are passing */}
   return (
     <div class="relative h-[400px] w-[300px] rounded-md">
         <img
@@ -15,7 +15,7 @@ function Card(props) {
             {props.newobj.email}      {/*//used PROPS*/}
           </p>
           <button class="mt-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white" className='color-black mt-5 rounded-xl'>
-            View Profile →
+            {props.btntext}
           </button>
         </div>
       </div>
