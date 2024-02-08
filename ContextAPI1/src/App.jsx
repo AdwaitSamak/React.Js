@@ -9,7 +9,7 @@ function App() {
 
   return (
     <UserContextProvider>
-      <h1>React Context API</h1>
+      <h1>React Context API 1</h1>
       <Login/>    
       {/* //components data kaise access karenge wo humne comp ke andar hi handle kr liya */}
       <Profile/>
